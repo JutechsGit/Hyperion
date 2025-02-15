@@ -2,3 +2,14 @@ name: hyperion
 version: '1.0'
 main: de.jutechs.hyperion.Main
 api-version: '1.21'
+description: Adds Hyperion to the game
+author: Jutechs
+commands:
+  awardhyperion:
+    description: Awards a Hyperion to a player.
+    usage: /awardhyperion <playername>
+    permission: hyperion.award
+permissions:
+  hyperion.award:
+    description: Allows an admin to give a player a Hyperion.
+    default: op
