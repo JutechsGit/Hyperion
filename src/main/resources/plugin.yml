@@ -1,0 +1,4 @@
+name: hyperion
+version: '1.0'
+main: de.jutechs.hyperion.Main
+api-version: '1.21'
